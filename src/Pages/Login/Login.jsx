@@ -64,9 +64,9 @@ const Login = () => {
                 <div className="card-body">
                     <form onSubmit={handleLogin} className="fieldset">
                         <label className="label">Email</label>
-                        <input ref={emailInputRef} name='email' type="email" defaultValue={"google@gmail.com"} className="input" placeholder="Email" />
+                        <input ref={emailInputRef} name='email' type="email" className="input" placeholder="Email" />
                         <label className="label">Password</label>
-                        <input name='password' defaultValue={"google@gmail.com"} type={show ? "text" : "password"} className="input relative" placeholder="Password" />
+                        <input name='password' type={show ? "text" : "password"} className="input relative" placeholder="Password" />
 
                         <div><p onClick={() => handleForgetPassword()} className="link link-hover">Forgot password?</p></div>
 
