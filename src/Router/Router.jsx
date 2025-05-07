@@ -10,6 +10,7 @@ import PrivateRoute from "./PrivateRoute";
 import CreatEvent from "../Pages/CreatEvent/CreatEvent";
 import SelectCetagory from "../Pages/SelectCetagory/SelectCetagory";
 import ForgetPassword from "../Component/ForgetPassword/ForgetPassword";
+import Pricing from "../Pages/Pricing/Pricing";
 
 export const router = createBrowserRouter([
     {
@@ -59,6 +60,12 @@ export const router = createBrowserRouter([
             {
                 path: "/forget",
                 element: <ForgetPassword></ForgetPassword>
+            },
+            {
+                path: "/pricing",
+                element: <PrivateRoute>
+                    <Pricing></Pricing>
+                </PrivateRoute>
             }
 
         ]

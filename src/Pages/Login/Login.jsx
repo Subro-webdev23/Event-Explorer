@@ -58,7 +58,6 @@ const Login = () => {
         <div className="hero-content flex-col">
             <Helmet>
                 <title>Log in</title>
-
             </Helmet>
             <h1 className="text-5xl font-bold">Login now!</h1>
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
