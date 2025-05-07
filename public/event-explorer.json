@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "thumbnail": "https://i.ibb.co.com/LzdZ4KS2/alexandre-pellaes-6vajp0pscx0-un.png",
+        "name": "Tech Innovators Conference 2025",
+        "category": "Tech",
+        "date": "2025-06-10",
+        "location": "Silicon Valley, CA",
+        "entry_fee": "Free",
+        "description": "Join global leaders and innovators in Silicon Valley for a full day of tech talks, networking, and the latest breakthroughs in AI, robotics, and sustainable tech. Perfect for entrepreneurs, developers, and enthusiasts looking to stay ahead of the curve.",
+        "interested": 2187
+    },
+    {
+        "id": 2,
+        "thumbnail": "https://i.ibb.co.com/0p9gVDLW/in-an-art-center-visitors-looks.png",
+        "name": "Modern Art Exhibition",
+        "category": "Art",
+        "date": "2025-06-15",
+        "location": "New York Art Gallery, NY",
+        "entry_fee": "$15",
+        "description": "Discover groundbreaking contemporary art from emerging and established artists at the New York Art Gallery. This curated exhibition features sculpture, digital installations, and paintings exploring modern themes and visual storytelling.",
+        "interested": 1452
+    },
+    {
+        "id": 3,
+        "thumbnail": "https://i.ibb.co.com/PsFyxnMj/DJI-0341-1536x1023.png",
+        "name": "City Youth Sports Meet",
+        "category": "Sports",
+        "date": "2025-07-05",
+        "location": "Chicago Stadium, IL",
+        "entry_fee": "$10",
+        "description": "A fun and competitive event for young athletes aged 10–18, featuring track & field, basketball, and soccer. Prizes, medals, and lots of cheering await. A great day for families and friends to support local youth talent.",
+        "interested": 1873
+    },
+    {
+        "id": 4,
+        "thumbnail": "https://i.ibb.co.com/KzmLKppz/pexels-gustavo-fring-6285124.jpg",
+        "name": "Digital Marketing Workshop",
+        "category": "Workshops",
+        "date": "2025-06-22",
+        "location": "Online (Zoom)",
+        "entry_fee": "$25",
+        "description": "Learn the fundamentals of digital marketing, including SEO, content strategy, and social media advertising. Ideal for beginners and small business owners. Hands-on exercises and a Q&A session included.",
+        "interested": 920
+    },
+    {
+        "id": 5,
+        "thumbnail": "https://i.ibb.co.com/Ng2DRk2C/global-business-conference-stock.png",
+        "name": "Global Business Conference",
+        "category": "Conferences",
+        "date": "2025-08-10",
+        "location": "London, UK",
+        "entry_fee": "$100",
+        "description": "Meet business leaders, economists, and entrepreneurs from around the globe at this premier networking and learning event. Panels cover global markets, tech disruption, and business innovation.",
+        "interested": 2045
+    },
+    {
+        "id": 6,
+        "thumbnail": "https://i.ibb.co.com/vCWYgf7z/20230430-Eugene-Marathon-Nelson-0.png",
+        "name": "Downtown Marathon 2025",
+        "category": "Marathone",
+        "date": "2025-09-01",
+        "location": "Los Angeles, CA",
+        "entry_fee": "$30",
+        "description": "Run through the heart of Los Angeles in the city’s most iconic marathon event. Open to all skill levels with 5K, 10K, and full marathon options. Enjoy live music, food stalls, and cheering crowds throughout the course.",
+        "interested": 2522
+    },
+    {
+        "id": 7,
+        "thumbnail": "https://i.ibb.co.com/cK3VqHmY/83ae357fec8eba398717da5e96b247b3.png",
+        "name": "Community Tree Plantation Drive",
+        "category": "Tree Plantation",
+        "date": "2025-07-20",
+        "location": "Green Park, Seattle, WA",
+        "entry_fee": "Free",
+        "description": "Help make Seattle greener! Join us in planting over 500 native trees in Green Park. A family-friendly event with eco-education booths, free snacks, and giveaways. Tools and gloves provided for volunteers.",
+        "interested": 1194
+    },
+    {
+        "id": 8,
+        "thumbnail": "https://i.ibb.co.com/yc0HztNn/1709908555480.png",
+        "name": "AI & Machine Learning Meetup",
+        "category": "Tech",
+        "date": "2025-07-12",
+        "location": "Austin Tech Hub, TX",
+        "entry_fee": "$20",
+        "description": "A casual meetup for AI professionals and enthusiasts. Short talks on ML trends, networking sessions, and a live coding demo. Bring your laptop, questions, and ideas to share!",
+        "interested": 2100
+    },
+    {
+        "id": 9,
+        "thumbnail": "https://i.ibb.co.com/XZJZFk9K/IMG-0508.png",
+        "name": "Local Artist Showcase",
+        "category": "Art",
+        "date": "2025-07-18",
+        "location": "Denver Arts Center, CO",
+        "entry_fee": "$5",
+        "description": "Celebrate Denver’s thriving creative scene with works from 30+ local artists. Paintings, pottery, and live art demonstrations make this event a visual feast for art lovers of all ages.",
+        "interested": 1180
+    },
+    {
+        "id": 10,
+        "thumbnail": "https://i.ibb.co.com/hxx8WvMp/kids-holding-golden-cup-boys-win.png",
+        "name": "Summer Soccer Championship",
+        "category": "Sports",
+        "date": "2025-08-02",
+        "location": "Miami Arena, FL",
+        "entry_fee": "$20",
+        "description": "Watch top local teams compete for the championship in this high-energy soccer showdown. Food vendors and entertainment on-site. A great weekend event for sports fans and families.",
+        "interested": 2197
+    }
+]

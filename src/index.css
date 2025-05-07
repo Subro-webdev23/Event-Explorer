@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+a.active {
+    border-bottom: 2px solid rgb(30, 127, 255);
+    color: rgb(23, 123, 255);
+}
