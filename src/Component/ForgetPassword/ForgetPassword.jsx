@@ -5,7 +5,7 @@ import { useLocation } from 'react-router';
 const ForgetPassword = () => {
     const { ForgetPassword } = useContext(AuthContext)
     const location = useLocation();
-    console.log("forget pass", location);
+    // console.log("forget pass", location);
 
     const handleReset = (e) => {
         e.preventDefault();

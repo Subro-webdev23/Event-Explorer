@@ -25,7 +25,7 @@ const Home = () => {
             {/* Popular Events */}
             <section>
                 <h2 className='text-3xl font-bold mt-25 my-15'>Popular Events</h2>
-                <div className='grid grid-cols-3 gap-5'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5'>
                     {
                         popularData.map(signleEvent => <EventCard key={signleEvent.id} signleEvent={signleEvent}></EventCard>)
                     }
@@ -34,18 +34,18 @@ const Home = () => {
             {/* Upcoming Events Section */}
             <section>
                 <h2 className='text-3xl font-bold my-15'>Upcoming Events Section</h2>
-                <div className='grid grid-cols-3 gap-5'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5'>
                     {
                         data.map(signleEvent => <EventCard key={signleEvent.id} signleEvent={signleEvent}></EventCard>)
                     }
                 </div>
             </section>
             {/* Interested Events */}
-            <section className=''>
+            <section>
                 <h2 className='text-3xl font-bold my-15'>Select your Interested Events by Category</h2>
-                <div className='grid grid-cols-6 gap-5 mb-15'>
+                <div className='grid grid-cols-3 gap-5 md:grid-cols-4 mb-15'>
                     {
-                        unique.map(cetagory => <Link key={cetagory.id} to={`/selectCetagory/${cetagory}`} className="btn btn-outline btn-primary  px-5">{cetagory}</Link>)
+                        unique.map(cetagory => <Link key={cetagory.id} to={`/selectCetagory/${cetagory}`} className="btn btn-outline btn-primary ">{cetagory}</Link>)
                     }
                 </div>
 

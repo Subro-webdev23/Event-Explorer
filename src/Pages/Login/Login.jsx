@@ -13,7 +13,7 @@ const Login = () => {
     const emailInputRef = useRef();
     const handleForgetPassword = () => {
         const value = emailInputRef.current.value;
-        console.log(value);
+        // console.log(value);
         navigate("/forget", { state: value })
     }
     const handleEye = () => {
@@ -43,7 +43,7 @@ const Login = () => {
     const handleGoogleLogIn = () => {
         signInGoogle()
             .then((result) => {
-                console.log("result", result);
+                // console.log("result", result);
                 toast.success("Loged in Successeful!")
                 navigate(`${location.state ? location.state : "/"}`);
 

@@ -70,7 +70,7 @@ const Register = () => {
     const handleGoogleLogIn = () => {
         signInGoogle()
             .then((result) => {
-                console.log("result", result);
+                // console.log("result", result);
                 navigate(`${location.state ? location.state : "/"}`);
 
             })

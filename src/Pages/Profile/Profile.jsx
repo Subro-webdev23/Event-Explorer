@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 
 const Profile = () => {
     const { user, updateUser, setUser } = useContext(AuthContext);
-    console.log("profile", user.displayName);
+    // console.log("profile", user.displayName);
     const handleSave = (e) => {
         e.preventDefault();
         const form = e.target;
@@ -17,7 +17,7 @@ const Profile = () => {
                 toast.success("Update Successful!")
             })
             .catch((error) => {
-                console.log(error);
+                // console.log(error);
             })
 
     }
@@ -27,7 +27,7 @@ const Profile = () => {
                 <title>Profile</title>
             </Helmet>
 
-            <div className=" flex lg:flex-row py-10 gap-10">
+            <div className=" md:flex lg:flex-row py-10 gap-10">
                 <img
                     src={user.photoURL}
                     className="max-w-sm rounded-lg h-80 object-cover shadow-2xl"
