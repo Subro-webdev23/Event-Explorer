@@ -27,7 +27,7 @@ A platform for discovering, exploring, and staying updated on upcoming local eve
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, React Router DOM, Tailwind CSS
+- **Frontend**: React.js, React Router, Tailwind CSS
 - **Authentication**: Firebase Auth
 - **Hosting**: Firebase Hosting
 - **State Management**: React Hooks (useState, useEffect)
