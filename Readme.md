@@ -32,12 +32,3 @@ A platform for discovering, exploring, and staying updated on upcoming local eve
 - **Hosting**: Firebase Hosting
 - **State Management**: React Hooks (useState, useEffect)
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/event-explorer.git
-cd event-explorer
